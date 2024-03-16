@@ -11,4 +11,4 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Run script.py when the container launches
-CMD ["python", "test.py"]
+CMD ["python", "web_app/app.py"]
